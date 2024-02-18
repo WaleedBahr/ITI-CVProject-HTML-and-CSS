@@ -1,0 +1,60 @@
+<html>
+    <head>
+        
+        <style>
+            
+            form{
+            
+              height: 513px;
+                border-radius: 50px;
+                text-align: center;
+                margin-top: 20px;
+                background-color: white;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            input[type="text"],input[type="password"]{
+                width: 90%;
+                padding: 12px 20px;
+                margin: 5px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+                
+            }
+            #butt{
+                background-color: #045078;
+                color: white;
+                border: none;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                cursor: pointer;
+            }
+
+            img{
+                width: 16%;
+                border-radius: 50%;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            label{
+                color: #045078;
+                font-size: 18px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <center>
+            <form action="thankyou.html" method="get" style="width: 600px;">
+                <br>
+                <img src="img/loginico.png" alt=""><br>
+                <h2 style="text-align: center; text-shadow:3px 3px 10px gray;">Contact Me</h><br><br>
+                <label for="">Username</label><br>
+                <input type="text" name="firstname" tabindex="1" accesskey="a" required><br>
+                <label for="">Email</label><br>
+                <input type="text" name="email" tabindex="3" required><br>
+                <label for="Massage">Massage</label><br>
+                <textarea name="Massage" id="" cols="25" rows="5"></textarea><br><br>
+                <input type="submit" id="butt" value="submit" style="height: 40px; width: 80%; font-size: 18px;"><br>
+            </form>
+        </center>
+    </body>
+</html>
